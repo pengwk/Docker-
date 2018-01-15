@@ -34,7 +34,7 @@
 
 - 数据文件 `-v /my/own/datadir:/var/lib/mysql`
 
-- 日志文件
+- 日志文件 `/var/log/mysql/error.log`
 
 
 
