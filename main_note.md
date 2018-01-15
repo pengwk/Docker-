@@ -30,7 +30,7 @@
 
 - MySQL的配置在文件`/etc/mysql/my.cnf`中指定，这个文件中也包含了`/etc/mysql/conf.d`文件夹中所有以`.cnf`的内容结尾的文件。后面这个文件夹内的配置文件会增强（augment）或覆盖前面的配置。
 
-- 数据文件
+- 数据文件 `-v /my/own/datadir:/var/lib/mysql`
 
 - 日志文件
 
